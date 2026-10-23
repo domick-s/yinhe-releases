@@ -1,11 +1,11 @@
 {
-  "version": "2.0.1",
-  "notes": "# 银河 2.0.1\n\n## 需求描述\n\n修复微信私聊查分：符合运行范围的账号收到首次本人查询时，自动注册后继续执行同一条查询。配置为 `查|余额` 等多个别名时，任一别名均可触发；查询开关、账号运行及有效群绑定仍须正常。\n\n- 修复图片回复的临时文件过早释放问题，微信受理后继续保留图片供读取，减少余额图片偶尔无回复。结果未知时仍不自动重发。\n- 包含新的微信冻结组件，修复接收消息标记竞态。本次主程序与微信桥接同步重新编译。\n- 包含 2.0.0 的控制台优化：添加账号、通用配置以弹窗打开；编辑账号可集中修改群和游戏；默认横排导航，可切换布局；微信登录后自动完成绑定；底栏显示卡密到期时间和剩余天数。\n- 启动后自动检查更新，运行期间每 30 分钟检查一次，发现新版后提示；右下角仍可手动检查。下载和安装由用户操作，安装前需停止业务。\n\n本版相对 2.0.0 无新增数据库迁移、规则版本或 Python 源码变更，原有数据和已保存配置保留。保留 Tauri 更新签名与 SHA-256 校验，未做 Authenticode，Windows 可能提示未知发布者。\n\n本次按用户要求本地构建并发布，Windows 实机安装升级及真实微信连续查分、图片送达仍待验证。安装中断可使用已验签的完整安装包修复；如新版本已有新增业务，不要直接恢复旧备份。",
-  "pub_date": "2026-10-22T22:05:40.000Z",
+  "version": "2.1.1",
+  "notes": "修复已知问题",
+  "pub_date": "2026-10-23T13:16:32.906Z",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://updates.dev-forge.one/releases/2.0.1/windows-x86_64/yinhe-2.0.1-windows-x86_64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVScGV5UFE1TnRUYzVsVW9MK2QxcStBZ2JJcm96WUdZTHY4cDJvQXZBS3NiZlFBQTlabTVxeWsvMTZlamdmRDBwazFUV1pVZWszNXFQZkNzWFhlMXlhYTR2eXA2UDNaWndFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNzA2OTYwCWZpbGU66ZO25rKzXzIuMC4xX3g2NC1zZXR1cC5leGUKNjNHb2VWSFlQQXBuQ0llVlcrR3EyeFFad1RHd0pGNFFicVZ4bzhIQ1VQRkdxZHJqTmtMdHk4NTBUbk1UQ0VNWFpjSmxjV3gvR01uczRGcVc0ZEFaQVE9PQo="
+      "url": "https://updates.dev-forge.one/releases/2.1.1/windows-x86_64/yinhe-2.1.1-windows-x86_64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVScGV5UFE1TnRUYzk3Z3F3cm14Q1lNaG5jZVpIcWJleC9yUVdDYVl5T0pPNjFpSU9IWEdHZ0xTK05PZ001TFJsM0J5WUdhSTJSbFg5QnR5c1lDdjYveGpwTXQ5TFBtb2djPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNzYxMzkyCWZpbGU66ZO25rKzXzIuMS4xX3g2NC1zZXR1cC5leGUKT3prUzc1MHhLNWtGN0kzemI3bllQQzYzOHlpS0VyU0lTa2loVisrZkNvbGYxOVI4cnNmVjgxQ1k5Y25RYkxOMEZ6OWRSY01IZi9OZ1dVbVZmT2JtQ2c9PQo="
     }
   }
 }
