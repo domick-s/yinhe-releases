@@ -1,11 +1,11 @@
 {
-  "version": "2.2.3",
+  "version": "2.2.4",
   "notes": "修复已知问题",
-  "pub_date": "2026-10-24T23:18:33.079Z",
+  "pub_date": "2026-10-25T01:59:59.267Z",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://updates.dev-forge.one/releases/2.2.3/windows-x86_64/yinhe-2.2.3-windows-x86_64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVScGV5UFE1TnRUY3k5bG00RnNPb2lHbENVam8vNVFQaSs2RFl6cnVTWG0zMUUzKzFLNlEwRGlzaEtRSDViS1pMMzRiV3l5OFBhN3lFeEtOOHhjcDYyNm5ZRWUyeUE4UmdJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyODgzOTEyCWZpbGU66ZO25rKzXzIuMi4zX3g2NC1zZXR1cC5leGUKbnV1c2gzYTlDejJQNHZwVlo5MHo3dVpodkRZdTVoTWNycFMya1E2Q3ZBUXlUZFUvazlpV2JrZ1VXS2xORG10bUs5MFU4cVBKWFpNTkRDNWtkcHJLQUE9PQo="
+      "url": "https://updates.dev-forge.one/releases/2.2.4/windows-x86_64/yinhe-2.2.4-windows-x86_64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVScGV5UFE1TnRUY3lic3RRVENNdzVUdmF3SFppY0k3YlhuZ3hrME53K3JnMWwrL2xuUUI5TlZ3bWU4UGxmNXh6YW52MEFYQU5lMzBibXVuUnEvc1B6WmFNQmRJV2VRdGdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyODkzNTk5CWZpbGU66ZO25rKzXzIuMi40X3g2NC1zZXR1cC5leGUKTTVPZ01sNFlPbnpBODlYVE9sNFB5M2hLQW92Uml6aSt1c04zdEkzTHoxMlJaNGZhZUx3elBhajNldVFOdzBHS3hRTXUzTTJMQ0NFemlwRUN0ZCt4Q0E9PQo="
     }
   }
 }
